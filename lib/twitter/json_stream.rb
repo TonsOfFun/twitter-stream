@@ -360,7 +360,7 @@ module Twitter
     end
 
     def escape str
-      CGI.escape(str.to_s, /[^a-zA-Z0-9\-\.\_\~]/)
+      str
     end
   end
 end
